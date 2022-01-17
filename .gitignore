@@ -1,0 +1,8 @@
+data/imagenet_weights
+model/
+*.DS_Store
+*__pycache__
+captioning.egg-info/
+vis/
+eval_results/
+coco-caption/
