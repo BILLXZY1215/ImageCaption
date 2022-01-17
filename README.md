@@ -109,7 +109,7 @@ This tells the `eval` script to run up to 10 images from the given folder. If yo
 
 ```bash
 $ cd vis
-$ python -m SimpleHTTPServer
+$ python -m http.server
 ```
 
 Now visit `localhost:8000` in your browser and you should see your predicted captions.
@@ -161,3 +161,8 @@ Of course, please cite the original paper of models you are using (You can find 
 ## Acknowledgements
 
 Thanks the original [neuraltalk2](https://github.com/karpathy/neuraltalk2) and awesome PyTorch team.
+
+## Q/A
+
+If error shows `ZeroDivisionError: division by zero`, then please remove files in `eval_results` folder.
+
